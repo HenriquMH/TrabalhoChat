@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Cimas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    <header class="header navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Chat Cimas</a>
+            <div class="d-flex">
+                <button class="btn btn-outline-light me-2">Perfil</button>
+                <a href="index.html"><button class="btn btn-outline-light">Logout</button></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+      <div class="row">
+          <nav class="col-md-3 col-lg-2 d-md-block sidebar position-fixed h-100">
+              <div class="position-sticky" style="top: 0;">
+                  <div class="p-3">
+                      <div class="input-group">
+                          <input type="text" class="form-control search-input" placeholder="Busque grupos">
+                          <button class="btn btn-primary"><i class="bi bi-search"></i></button>
+                      </div>
+                  </div>
+                  <div class="list-group overflow-auto" style="height: calc(100vh - 100px);">
+                      <a href="#" class="list-group-item list-group-item-action bg-dark d-flex justify-content-between align-items-center">
+                          <div class="d-flex align-items-center">
+                              <img src="./imgs/074b0dc22cc86206b5acc9af9e6ed506e32b595dbd5cf33ce0b7da5725931c2c.avif" class="rounded-circle me-2" alt="User Image">
+                              <div>
+                                  <div>Slime Rancher</div>
+                                  <small>Descrição...</small>
+                              </div>
+                          </div>
+                          <span class="badge bg-primary rounded-pill">12</span>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action bg-dark d-flex justify-content-between align-items-center">
+                          <div class="d-flex align-items-center">
+                              <img src="./imgs/o-que-e-um-tema-wordpress.jpg" class="rounded-circle me-2" alt="User Image">
+                              <div>
+                                  <div>Temas turma 631A</div>
+                                  <small>Descrição...</small>
+                              </div>
+                          </div>
+                          <span class="badge bg-primary rounded-pill">13</span>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action bg-dark d-flex justify-content-between align-items-center">
+                          <div class="d-flex align-items-center">
+                              <img src="./imgs/o-que-e-um-tema-wordpress.jpg" class="rounded-circle me-2" alt="User Image">
+                              <div>
+                                  <div>so conversa</div>
+                                  <small>Descrição...</small>
+                              </div>
+                          </div>
+                          <span class="badge bg-primary rounded-pill">53</span>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action bg-dark d-flex justify-content-between align-items-center">
+                          <div class="d-flex align-items-center">
+                              <img src="./imgs/channels4_profile.jpg" class="rounded-circle me-2" alt="User Image">
+                              <div>
+                                  <div>bo joga</div>
+                                  <small>Descrição...</small>
+                              </div>
+                          </div>
+                          <span class="badge bg-primary rounded-pill">2</span>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action bg-dark d-flex justify-content-between align-items-center">
+                          <div class="d-flex align-items-center">
+                              <img src="./imgs/images.jpg" class="rounded-circle me-2" alt="User Image">
+                              <div>
+                                  <div>fazendo nd</div>
+                                  <small>Descrição...</small>
+                              </div>
+                          </div>
+                          <span class="badge bg-primary rounded-pill">0</span>
+                      </a>
+                  </div>
+              </div>
+          </nav>
+  
+          <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 offset-md-3 offset-lg-2 d-flex flex-column ">
+              <div class="chat-header p-3 border-bottom border-start">
+                  <h4>Temas turma 631A</h4>
+                  <p>13 pessoas online</p>
+              </div>
+              <div class="chat-messages flex-grow-1 p-3 overflow-auto border-start">
+                  <div class="message">
+                      <div class="d-flex align-items-center mb-3">
+                          <img src="./imgs/db7c0545-5944-4f2b-9b8f-1d95207a9aaf.jpg" class="rounded-circle me-2" alt="User Image">
+                          <strong>ele</strong>
+                      </div>
+                      <p>Bah pra essa semana eu nem anotei</p>
+                  </div>
+                  <div class="message">
+                      <div class="d-flex align-items-center mb-3">
+                          <img src="./imgs/d8fce004-fef4-4dbd-adfd-6a822cb5215d.jpg" class="rounded-circle me-2" alt="User Image">
+                          <strong>TU</strong>
+                      </div>
+                      <p>acho q o matheus anotou</p>
+                  </div>
+                  <div class="message">
+                      <div class="d-flex align-items-center mb-3">
+                          <img src="./imgs/d7a98558-ee60-4fd8-9147-04dc9a482d87.jpg" class="rounded-circle me-2" alt="User Image">
+                          <strong>Nos</strong>
+                      </div>
+                      <p>vish pior q n anotei</p>
+                  </div>
+                  <div class="message">
+                      <div class="d-flex align-items-center mb-3">
+                          <img src="./imgs/8ed91b5a-9a43-4f5c-9f65-7b2ce8d0cdf4.jpg" class="rounded-circle me-2" alt="User Image">
+                          <strong>voz</strong>
+                      </div>
+                      <p>eu anotei!!</p>
+                  </div>
+                  <div class="message">
+                      <div class="d-flex align-items-center mb-3">
+                          <img src="./imgs/30a4176a-7cd7-43b1-b62a-651572cbfebb.jpg" class="rounded-circle me-2" alt="User Image">
+                          <strong>eles</strong>
+                      </div>
+                      <p>So vai ter um tema de portugues</p>
+                  </div>
+                
+                  <div class="d-flex align-items-end justify-content-end mb-4">
+                    <div class="me-2">
+                        <div class="p-3 rounded-3">
+                            esse aqui é eu!!
+                        </div>
+                    </div>
+                    <img src="./imgs/146e23c7-ba1a-4414-90da-3a1e93eab714.jpg" alt="Sua Foto" class="rounded-circle" style="width: 40px; height: 40px;">
+                </div>
+                
+                
+                
+              </div>
+              <div class="chat-footer p-3 d-flex align-items-center border-top border-start">
+                  <i class="bi bi-emoji-smile me-2"></i>
+                  <input type="text" class="form-control chat-input me-2" placeholder="Enviar mensagem...">
+                  <button class="btn btn-primary d-flex align-items-center">
+                      <i class="bi bi-send me-1"></i> Enviar
+                  </button>
+              </div>
+          </main>
+      </div>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
